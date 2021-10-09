@@ -1,3 +1,14 @@
+
+
+## to strip: "main": "src/index.tsx",
+
+
+## new: (unstripped).
+
+
+```json
+
+
 {
   "name": "rtk-cache",
   "version": "0.1.0",
@@ -5,6 +16,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
+  "main": "srcRTKQuery_CacheSandBox/index.tsx",
   "dependencies": {
     "@emotion/css": "11.1.3",
     "@reduxjs/toolkit": "^1.6.2",
@@ -53,3 +65,17 @@
     "typescript": "^4.4.3"
   }
 }
+
+```
+
+
+# 6:24 pm ,,, stripped this: 
+
+
+```json
+
+"main": "srcRTKQuery_CacheSandBox/index.tsx",
+```
+
+### from package json
+
