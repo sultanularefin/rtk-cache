@@ -9,8 +9,18 @@ const pseudoReducer = (state: boolean, arg: unknown) => {
   if (typeof arg === "boolean") return arg;
   return !state;
 };
+// const useToggle = (initialState = true) => {
+//   const [isActive, toggleIsActive] = useReducer(pseudoReducer, initialState)
+//
+//
+//   return [isActive, toggleIsActive] as const;
+// };
+
+
 const useToggle = (initialState = true) => {
-  const [isActive, toggleIsActive] = useReducer(pseudoReducer, initialState);
+  const [isActive, toggleIsActive] = useReducer(pseudoReducer, initialState)
+
+
   return [isActive, toggleIsActive] as const;
 };
 

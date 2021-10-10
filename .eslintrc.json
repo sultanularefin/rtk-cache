@@ -18,7 +18,10 @@
         "additional-typescript-only-rule": "off",
         "no-unused-vars": "off",
         "@typescript-eslint/restrict-plus-operands": "off",
-        "no-undef": "off"
+        "no-undef": "off",
+        "no-extra-semi": "off"
+
+
 
     }
 }
